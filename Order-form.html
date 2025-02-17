@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <style>
+        body {
+            background-image: linear-gradient(to bottom left, rgba(13, 175, 13, 0.726), white, rgba(255, 187, 0, 0.719));
+        }
+
+        .container {
+            width: 50vi;
+            height: 500px;
+            margin-left: 25%;
+            margin-top: 100px;
+            border-radius: 15px;
+            padding: 5%;
+            box-sizing: border-box;
+            color: rgb(16, 99, 64);
+            background-image: linear-gradient(to bottom right, rgba(208, 255, 0, 0.562), rgba(0, 132, 255, 0.575));
+        }
+
+        input[type=text] {
+            background-color: rgba(199, 211, 211, 0.685);
+            border: 1px solid rgb(110, 110, 110);
+            border-radius: 7px;
+            margin-top: 15px;
+            margin-left: 5%;
+            width: 90%;
+            height: 30px;
+            transition: 0.25s;
+        }
+
+        input[type=text]:hover {
+            height: 32px;
+            background-color: rgba(199, 211, 211, 0.322);
+        }
+
+        input[type=button]{
+                background-color: rgba(0, 255, 255, 0.733);
+                border-radius: 8px;
+                border: 1px solid rgba(255, 255, 255, 0.425);
+                width: 50%;
+                height: 30px;
+                margin-left: 25%;
+                margin-top: 25px;
+                transition: 0.25s;
+            }
+        input[type=button]:hover{
+            margin-top: 23px;
+            box-shadow: 2px 2px ;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <input type="text" name="name" placeholder="Enter Name"> <br>
+            <input type="text" name="email" placeholder="Enter E-mail"> <br>
+            <input type="text" name="mobile" placeholder="Phone"> <br>
+            <input type="text" name="item" placeholder="Item Name"> <br>
+            <input type="text" name="itme-no" placeholder="Item Quantity"> <br>
+            <input type="button" name="oder" value="Place Order"> <br>
+        </form>
+    </div>
+</body>
+
+</html>
